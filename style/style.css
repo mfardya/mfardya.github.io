@@ -1,0 +1,160 @@
+* {
+    font-family: 'Cinzel', serif;
+    margin: 0px;
+}
+
+.navbar {
+    background: black;
+    text-align: center;
+    padding: 15px 0;
+    font-size: 18px;
+    box-shadow: 0 10px 5px black;
+    position: relative;
+    z-index: 2;
+}
+
+.navbar ul {
+    list-style-type: none;
+    padding-right: 20px;
+}
+
+.navbar ul li {
+    display: inline-block;
+    padding: 0 10px;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: white !important;
+}
+
+.navbar ul li a:hover {
+    color: yellow !important;
+}
+
+.jumbotron {
+    min-height: 540px;
+    background: url('../image/jumbotron1.jpg') fixed;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-size: cover;
+    background-position: center;
+}
+
+.jumbotron img {
+    width: 220px;
+    height: 220px;
+    border-radius: 50%;
+}
+
+.jumbotron img:hover {
+    width: 250px;
+    height: 250px;
+}
+
+.jumbotron h1 {
+    font-size: 40px;
+    text-shadow: 0 0 5px black;
+}
+
+
+.jumbotron p {
+    font-size: 19px;
+}
+
+.jumbotron i {
+    font-size: 30px;
+    text-shadow: 0 0 5px black;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+.about {
+    text-align: center;
+    margin-top: 20px;
+}
+
+h1 {
+    font-size: 40px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+hr {
+    width: 25%;
+    background: blue;
+    margin: 0 auto 20px;
+}
+
+.about p {
+    font-size: 20px;
+}
+
+.about .p {
+    clear: both;
+}
+
+.about .kiri {
+    width: 48%;
+    float: left !important;
+    text-align: justify;
+}
+
+.about .kanan {
+    width: 48%;
+    float: right !important;
+    text-align: justify;
+}
+
+section.gallery {
+    margin-top: 56px;
+}
+
+section.gallery img {
+    margin-left: 2px;
+    width: 24%;
+    height: 200px;
+}
+
+section.contact {
+    margin-top: 56px;
+    text-align: center;
+}
+
+section.contact h3 {
+    font-size: 26px;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+section.contact h3 a {
+    color: blue;
+    text-decoration: none;
+}
+
+section.contact h3 a:hover {
+    color: yellow;
+}
+
+section.contact img {
+    margin-left: 2px;
+    width: 3%;
+    height: 30px;
+
+}
+
+footer {
+    margin-top: 76px;
+    background: black;
+    color: white;
+    text-align: center;
+    font-size: 18px;
+    padding: 10px 0;
+}
